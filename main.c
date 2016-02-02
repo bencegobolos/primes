@@ -42,7 +42,7 @@ int main(int argc, char* argv[])
   unsigned int counter = 2;
   // The number that is being checked.
   unsigned int number = 3;
-  // The number's half. It is for optimization purpose.
+  // The number's third. It is for optimization purpose.
   unsigned int number_third;
 
   // Primes' array initialization.
