@@ -43,7 +43,7 @@ int main(int argc, char* argv[])
   // The number that is being checked.
   unsigned int number = 3;
   // The number's half. It is for optimization purpose.
-  unsigned int number_half;
+  unsigned int number_third;
 
   // Primes' array initialization.
   primes[0] = 2;
@@ -51,11 +51,11 @@ int main(int argc, char* argv[])
 
   while (counter < param) {
     number += 2;
-    number_half = number/2;
+    number_third = number/3;
     isprime = TRUE;
 
     for (i = 1; i < counter; i++) {
-      if (primes[i] > number_half)
+      if (primes[i] > number_third)
         break;
 
       if (!(number % primes[i])) {
